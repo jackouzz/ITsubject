@@ -9,19 +9,31 @@
 #include <iostream>
 using namespace std;
 int FristNumber,SecondNumber,ThirdNumber;
-int  a,b,c,d;
+int a,b,c;
+int x,y,z,i;
 int main() {
-    // insert code here...
-    
-    cin >> a >> b>> c;
-     //d = a + b + c;
-    cout << a+b+c << endl;
+    cin >> x >> y >> z ;
+    i = x/3;
+    x = i;
+    y = y+i;
+    z = z+i;
+    i = y/3;
+    x = x+i;
+    y = i;
+    z = z+i;
+    i = z/3;
+    x = x+i;
+    y = y+i;
+    z = i;
+    cout << x << endl << y << endl << z << endl;
+    //cin >> a >> b>> c;
+    //cout << a+b+c << endl;
     //cout << "This program counts three numbers. \n";
     //cout << "Input frist number:";
     //cin >> FristNumber;
     //cout << "Input Second number:";
     //cin >> SecondNumber;
-   //cout << "Input Third number:";
+    //cout << "Input Third number:";
     //cin >> ThirdNumber;
     //cout << "The sum is " << FristNumber+SecondNumber+ThirdNumber << endl ;
     
