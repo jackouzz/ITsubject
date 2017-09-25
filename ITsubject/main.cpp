@@ -7,9 +7,19 @@
 //
 
 #include <iostream>
-
-int main(int argc, const char * argv[]) {
+using namespace std;
+int FristNumber,SecondNumber,ThirdNumber;
+int main() {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    cout << "This program counts three numbers. \n";
+    cout << "Input frist number:";
+    cin >> FristNumber;
+    cout << "Input Second number:";
+    cin >> SecondNumber;
+    cout << "Input Third number:";
+    cin >> ThirdNumber;
+    cout << "The sum is " << FristNumber+SecondNumber+ThirdNumber << endl ;
+    
     return 0;
+    
 }
