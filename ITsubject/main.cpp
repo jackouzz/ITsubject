@@ -8,9 +8,7 @@
 
 #include <iostream>
 using namespace std;
-int FristNumber,SecondNumber,ThirdNumber;
-int a,b,c;
-int x,y,z,i;
+void CalThreeNumbers();
 void CalCircle();
 int main() {
     /*
@@ -40,7 +38,7 @@ int main() {
     //cout << "The sum is " << FristNumber+SecondNumber+ThirdNumber << endl ;
     */
     CalCircle();
-    
+    CalThreeNumbers();
     return 0;
     
 }
@@ -53,3 +51,17 @@ void CalCircle() {
     cout << "S = " << AreaOfCircle << endl << "D = " << PerimeterOfCircle << endl ;
     return;
 }
+void CalThreeNumbers() {
+    int FirstNumber,SecondNumber,ThirdNumber;
+    cout << "This program counts three numbers. \n";
+    cout << "Input Frist number:";
+    cin >> FirstNumber;
+    cout << "Input Second number:";
+    cin >> SecondNumber;
+    cout << "Input Third number:";
+    cin >> ThirdNumber;
+    cout << "The sum is " << FristNumber+SecondNumber+ThirdNumber << endl ;
+    return;
+} 
+    
+
