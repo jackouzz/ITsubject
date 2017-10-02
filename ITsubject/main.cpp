@@ -11,7 +11,9 @@ using namespace std;
 int FristNumber,SecondNumber,ThirdNumber;
 int a,b,c;
 int x,y,z,i;
+void CalCircle();
 int main() {
+    /*
     cin >> x >> y >> z ;
     i = x/3;
     x = i;
@@ -36,7 +38,18 @@ int main() {
     //cout << "Input Third number:";
     //cin >> ThirdNumber;
     //cout << "The sum is " << FristNumber+SecondNumber+ThirdNumber << endl ;
+    */
+    CalCircle();
     
     return 0;
     
+}
+void CalCircle() {
+    double AreaOfCircle,PerimeterOfCircle,Radius;
+    cout << "This program calculate circle's area and perimeter." << endl << "Please input Radius:";
+    cin >> Radius ;
+    AreaOfCircle = Radius * Radius * 3.14;
+    PerimeterOfCircle = 2 * Radius * 3.14;
+    cout << "S = " << AreaOfCircle << endl << "D = " << PerimeterOfCircle << endl ;
+    return;
 }
