@@ -52,10 +52,10 @@ void CalCircle() {
     return;
 }
 void CalThreeNumbers() {
-    int FirstNumber,SecondNumber,ThirdNumber;
+    int FristNumber,SecondNumber,ThirdNumber;
     cout << "This program counts three numbers. \n";
     cout << "Input Frist number:";
-    cin >> FirstNumber;
+    cin >> FristNumber;
     cout << "Input Second number:";
     cin >> SecondNumber;
     cout << "Input Third number:";
