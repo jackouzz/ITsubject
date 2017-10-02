@@ -46,13 +46,10 @@ int main() {
 }
 void CalCircle() {
     double AreaOfCircle,PerimeterOfCircle,Radius;
-    cout << "Please input Radius:";
+    cout << "This program calculate circle's area and perimeter." << endl << "Please input Radius:";
     cin >> Radius ;
     AreaOfCircle = Radius * Radius * 3.14;
     PerimeterOfCircle = 2 * Radius * 3.14;
-    cout << "S =" << AreaOfCircle << endl << "D =" << PerimeterOfCircle << endl ;
+    cout << "S = " << AreaOfCircle << endl << "D = " << PerimeterOfCircle << endl ;
     return;
-    
-    
-    
 }
