@@ -62,6 +62,7 @@ void CalThreeNumbers() {
     cin >> ThirdNumber;
     cout << "The sum is " << FristNumber+SecondNumber+ThirdNumber << endl ;
     return;
+    //2017.10.02.15:31
 } 
     
 
