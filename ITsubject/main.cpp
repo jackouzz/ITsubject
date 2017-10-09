@@ -7,6 +7,8 @@
 //
 
 #include <iostream>
+#include <cmath>
+#include <iomanip>
 using namespace std;
 void CalThreeNumbers();
 void CalCircle();
@@ -37,19 +39,35 @@ int main() {
     //cin >> ThirdNumber;
     //cout << "The sum is " << FristNumber+SecondNumber+ThirdNumber << endl ;
     */
-    CalCircle();
-    CalThreeNumbers();
+    //CalCircle();
+    //CalThreeNumbers();
+    //int a,b,c,d,n;
+    //cin >> a>>b>>c>>d;
+    //n=(a+b+c+d)/4;
+    //cout <<n;
+    int a;
+    double b;
+    cin >> a;
+    b=sqrt(a);
+    cout <<setiosflags(ios::fixed);
+    cout <<setprecision(2) << b <<endl;
     return 0;
     
 }
+
 void CalCircle() {
-    double AreaOfCircle,PerimeterOfCircle,Radius;
+    /*double AreaOfCircle,PerimeterOfCircle,Radius;
     cout << "This program calculate circle's area and perimeter." << endl << "Please input Radius:";
     cin >> Radius ;
     AreaOfCircle = Radius * Radius * 3.14;
     PerimeterOfCircle = 2 * Radius * 3.14;
     cout << "S = " << AreaOfCircle << endl << "D = " << PerimeterOfCircle << endl ;
-    return;
+    return;*/
+    double s,c,r;
+    cin >> r ;
+    s = r * r * 3.14;
+    c = 2 * r * 3.14;
+    cout << "c=" << c << " "<< "s=" << s << endl;
 }
 void CalThreeNumbers() {
     int FristNumber,SecondNumber,ThirdNumber;
@@ -63,6 +81,4 @@ void CalThreeNumbers() {
     cout << "The sum is " << FristNumber+SecondNumber+ThirdNumber << endl ;
     return;
     //2017.10.02.15:31
-} 
-    
-
+}
